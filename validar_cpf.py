@@ -1,13 +1,4 @@
 def validar_cpf(cpf):
-    """
-    Verifica se um CPF é válido.
-
-    Args:
-        cpf (str): O CPF a ser validado (somente números).
-
-    Returns:
-        bool: True se o CPF for válido, False caso contrário.
-    """
 
     cpf = ''.join(filter(str.isdigit, cpf))
 
